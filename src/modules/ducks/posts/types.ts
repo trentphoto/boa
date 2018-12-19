@@ -6,6 +6,6 @@ export interface PostState {
   allPosts: {
     error: string | null
     loading: boolean
-    data: WPPost[]
+    data: WPEpisode[] | any
   }
 }
