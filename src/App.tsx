@@ -9,6 +9,7 @@ import {
   EpisodeSingle,
   Heart,
   Listen,
+  Support,
   NotFound
 } from './views'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
@@ -49,6 +50,7 @@ const App: React.SFC<Props> = props => (
             <Route path="/episodes/:id" component={EpisodeSingle} />
             <Route path="/heart" component={Heart} />
             <Route path="/listen" component={Listen} />
+            <Route path="/support" component={Support} />
             <Route component={NotFound} />
           </Switch>
         </CSSTransition>

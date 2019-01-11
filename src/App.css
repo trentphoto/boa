@@ -8906,6 +8906,8 @@ h3 {
 
 .GiveBtn {
   background-color: rgba(0, 0, 0, 0.3);
+  font-weight: 800;
+  font-size: 1.2rem;
   color: white;
   border-radius: 5px;
   padding: 10px;
@@ -8986,7 +8988,8 @@ main {
   letter-spacing: 2px;
   text-transform: uppercase;
   flex-grow: 1;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: center;
